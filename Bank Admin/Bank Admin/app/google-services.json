@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1007660977457",
+    "firebase_url": "https://smart-bank-assist-default-rtdb.firebaseio.com",
+    "project_id": "smart-bank-assist",
+    "storage_bucket": "smart-bank-assist.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007660977457:android:ee8325b48f1e4425047410",
+        "android_client_info": {
+          "package_name": "com.example.bankassist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6bsSS1ANChB8nhFQPsMLCSU8Jkvv-LwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007660977457:android:7b8b2fa1ce152e00047410",
+        "android_client_info": {
+          "package_name": "com.example.bankassistadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6bsSS1ANChB8nhFQPsMLCSU8Jkvv-LwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

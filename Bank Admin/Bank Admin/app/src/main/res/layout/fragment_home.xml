@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bankassistadmin.HomeFragment">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:padding="16dp"
+      >
+
+      <!-- Message if no enquiries are available -->
+      <TextView
+          android:id="@+id/tvDeal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text=" "
+          android:textSize="22sp"
+          android:gravity="center"
+          android:textColor="@color/bluish_black"
+          android:paddingTop="20dp"
+          android:layout_margin="10dp"
+          android:textStyle="bold"
+          />
+
+      <!-- Progress Bar (Visible while loading data) -->
+      <ProgressBar
+          android:id="@+id/progressBar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:visibility="gone"/>
+
+      <!-- Message if no enquiries are available -->
+      <TextView
+          android:id="@+id/tvNoData"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="No enquiries found for your category."
+          android:textSize="16sp"
+          android:gravity="center"
+          android:textColor="@android:color/darker_gray"
+          android:paddingTop="20dp"
+          android:visibility="gone"/>
+
+      <!-- RecyclerView to display filtered enquiries -->
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/recyclerView"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:visibility="gone"/>
+
+  </LinearLayout>
+
+
+
+
+</ScrollView>

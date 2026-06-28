@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#0059D4</color>
+    <color name="purple_500">#0059D4</color>
+    <color name="purple_700">#0059D4</color>
+    <color name="teal_200">#0059D4</color>
+    <color name="teal_700">#006BFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- App Colors -->
+    <color name="navBarColor">#006BFF</color>
+    <color name="mainBGColor">#222831</color>
+    <color name="blockBGColor">#006BFF</color>
+    <color name="textColor">#EEEEEE</color>
+    <color name="textHintColor">#80EEEEEE</color>   <!-- 50% -->
+
+    <color name="colorPrimary">#0059D4</color>
+    <color name="colorPrimaryLite">#006BFF</color>
+    <color name="colorPrimaryLite2">#006BFF</color>
+    <color name="colorPrimaryDark">#0059D4</color>
+    <color name="colorAccent">#006BFF</color>
+    <color name="green_desat">#4CA456</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorPurple">#983CFF</color>
+    <color name="colorPurpleT">#64983cff</color>
+    <color name="colorBlue">#2FB4FF</color>
+    <color name="colorBlueT">#642fb4ff</color>
+    <color name="colorTransparentWhite">#CCCCCC</color>
+    <color name="textInputLayout">#96ffffff</color>
+
+    <color name="lightblue">#006BFF</color>
+    <color name="shallow_blue">#C9E0FF</color>
+    <color name="deepblue">#0059D4</color>
+    <color name="bluish_black">#1B2430</color>
+
+    <color name="background_color">#cee49b</color>
+    <color name="blueWhite">#ffffff</color>
+
+
+</resources>

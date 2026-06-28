@@ -1,0 +1,23 @@
+buildscript {
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.10'
+    }
+}// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '7.4.2' apply false
+    id 'com.android.library' version '7.4.2' apply false
+    id 'org.jetbrains.kotlin.android' version '1.8.0' apply false
+}
+
+// Increase JVM Heap Size for Gradle (fix Out of Memory issue)
+gradle.projectsEvaluated {
+    tasks.withType(JavaCompile).configureEach {
+        options.fork = true
+        options.forkOptions.jvmArgs += ['-Xmx4g']
+    }
+}
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
